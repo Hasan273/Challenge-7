@@ -1,0 +1,252 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.recon {
+  background-color: white;
+  height: 790px;
+  width: 1000px;
+}
+
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/776795674594639873/1035906793668366336/lampblack.png');
+  background-size: auto;
+}
+
+.myBG {
+  height: 100vh;
+  background-size: cover;
+}
+
+.brightimg {
+  filter: brightness(50%)
+}
+
+.brighttext{
+  filter: brightness(100%);
+}
+
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+
+.box {
+  width: 700px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.textbox {
+  width: 700px;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  color: white;
+}
+
+.detailtext {
+  width: 700px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  color: white;
+}
+
+.ratetext {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.detailtext h1 {
+  font-size: 84px;
+}
+
+.textbox h1 {
+  font-size: 84px;
+  color: white;
+}
+
+.detailtext button {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  color: white;
+  border-color: red;
+}
+
+.textbox button {
+  width: 250px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-color: red;
+}
+.searchicon {
+  color: white;
+}
+
+button .spanwt{
+  margin-left: 10px;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.srcicon {
+  padding-right: 100px;
+}
+
+.Xsa {
+  width: 1000px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  border-color: red;
+  flex: 1;
+}
+
+.formnav {
+  color: red;
+}
+
+.searchbar {
+  color: red;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+
+.search-box{
+  background-color: 0;
+  width:100%;
+}
+
+.cari {
+  width: 100%;
+}
+
+
+// .trending {
+//   height: auto;
+//   background-size: cover;
+//   margin-bottom: 50px;
+// }
+
+.movieImage {
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.images {
+  height: 500px;
+}
+
+// .trending {
+//   width: 90%;
+//   margin: 0 auto;
+//   margin-top: 50px;
+// }
+
+.resmovie {
+  width: 300px;
+  height: 350px;
+  justify-items: center;
+}
+
+.rescard {
+  margin: 5px;
+  transition: all 0.3s;
+  background: black;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+}
+
+
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+
+  height: 400px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero {
+	position: relative;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/*testing*/
+.card-item {
+  background: black;
+  cursor: pointer;
+  transition: all 0.3s;
+  min-height: 200px;
+  height: 50%;
+  margin: 10px;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+}
+
+.card-top {
+  height: 300px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card-bottom {
+  padding: 20px;
+  background-color: black;
+}
+.card-info {
+  color: white;
+  h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+  }
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
